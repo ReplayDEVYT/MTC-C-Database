@@ -1,0 +1,7 @@
+{
+  "airFilterUnitFlowRate": 0.0000005,
+  "cultistAmuletBonusPercent": 100,
+  "generatorFuelFlowRate": 0.0000005,
+  "generatorSpeedWithoutFuel": 0.07,
+  "gpuBoostRate": 5
+}

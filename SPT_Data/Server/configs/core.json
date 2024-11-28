@@ -1,0 +1,143 @@
+{
+    "sptVersion": "3.10.0",
+    "projectName": "SPT",
+    "compatibleTarkovVersion": "0.15.5.33420",
+    "serverName": "MTC-C Server",
+    "profileSaveIntervalSeconds": 15,
+    "sptFriendNickname": "Bot",
+    "allowProfileWipe": true,
+    "bsgLogging": {
+        "verbosity": 6,
+        "sendToServer": false
+    },
+    "release": {
+        "betaDisclaimerTimeoutDelay": 30
+    },
+    "fixes": {
+        "fixShotgunDispersion": true,
+        "removeModItemsFromProfile": false,
+        "removeInvalidTradersFromProfile": false,
+        "fixProfileBreakingInventoryItemIssues": false
+    },
+    "survey": {
+        "locale": {
+            "en": {
+                "question_1": "Do you prefer MTC-C over vanilla PvP?",
+                "question_1_answer_1": "Not at all",
+                "question_1_answer_2": "A little",
+                "question_1_answer_3": "Yes!",
+                "question_2": "Do you think MTC-C is active enough to be fun?",
+                "question_2_answer_1": "Yes",
+                "question_2_answer_2": "No",
+                "question_3": "What would you like to see in MTC-C?",
+                "question_3_hint": "Obviously, put anything within reason. Your feedback may be turned into a poll!",
+                "title": "MTC-C Playtest 2 Feedback survey",
+                "time": "About 1 minute",
+                "description": "This is the first MTC-C survey! This is more of a placeholder, but all results will be recorded if they're able to be!",
+                "farewell": "Your feedback has been recorded. Thank you for participating!"
+            }
+        },
+        "survey": {
+            "id": 1,
+            "welcomePageData": {
+                "titleLocaleKey": "title",
+                "timeLocaleKey": "time",
+                "descriptionLocaleKey": "description"
+            },
+            "farewellPageData": {
+                "textLocaleKey": "farewell"
+            },
+            "pages": [
+                [
+                    0,
+                    1
+                ]
+            ],
+            "questions": [
+                {
+                    "id": 0,
+                    "sortIndex": 1,
+                    "titleLocaleKey": "question_1",
+                    "hintLocaleKey": "",
+                    "answerLimit": 5,
+                    "answerType": "SingleOption",
+                    "answers": [
+                        {
+                            "id": 0,
+                            "questionId": 0,
+                            "sortIndex": 1,
+                            "localeKey": "question_1_answer_1"
+                        },
+                        {
+                            "id": 1,
+                            "questionId": 0,
+                            "sortIndex": 1,
+                            "localeKey": "question_1_answer_2"
+                        },
+                        {
+                            "id": 2,
+                            "questionId": 0,
+                            "sortIndex": 1,
+                            "localeKey": "question_1_answer_3"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "sortIndex": 1,
+                    "titleLocaleKey": "question_2",
+                    "hintLocaleKey": "",
+                    "answerLimit": 5,
+                    "answerType": "SingleOption",
+                    "answers": [
+                        {
+                            "id": 0,
+                            "questionId": 1,
+                            "sortIndex": 1,
+                            "localeKey": "question_2_answer_1"
+                        },
+                        {
+                            "id": 1,
+                            "questionId": 1,
+                            "sortIndex": 1,
+                            "localeKey": "question_2_answer_2"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "sortIndex": 1,
+                    "titleLocaleKey": "question_3",
+                    "hintLocaleKey": "question_3_hint",
+                    "answerLimit": 150,
+                    "answerType": "Text",
+                    "answers": []
+                }
+            ],
+            "isNew": true
+        }
+    },
+    "features": {
+        "autoInstallModDependencies": false,
+        "compressProfile": false,
+        "chatbotFeatures": {
+            "sptFriendEnabled": true,
+            "sptFriendGiftsEnabled": true,
+            "commandoEnabled": true,
+            "commandoFeatures": {
+                "giveCommandEnabled": true
+            },
+            "commandUseLimits": {
+                "StashRows": 15
+            },
+            "ids": {
+                "commando": "6723fd51c5924c57ce0ca01e",
+                "spt": "6723fd51c5924c57ce0ca01f"
+            }
+        },
+        "createNewProfileTypesBlacklist": []
+    },
+    "customWatermarkLocaleKeys": [],
+    "commit": "3dd9ce1c38772c581c4697cbc3312b199b655a60",
+    "buildTime": 1732633246456
+}

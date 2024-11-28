@@ -1,0 +1,21 @@
+{
+    "equipment": {
+        "ArmBand": false,
+        "Compass": false,
+        "Headwear": false,
+        "Earpiece": false,
+        "FaceCover": false,
+        "ArmorVest": false,
+        "Eyewear": false,
+        "TacticalVest": false,
+        "PocketItems": false,
+        "Backpack": false,
+        "Holster": false,
+        "FirstPrimaryWeapon": false,
+        "SecondPrimaryWeapon": false,
+        "Scabbard": false,
+        "SecuredContainer": false
+    },
+    "questItems": false,
+    "specialSlotItems": false
+}
