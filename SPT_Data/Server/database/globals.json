@@ -34947,18 +34947,18 @@
     },
     "rating": {
       "categories": {
-        "avgEarnings": false,
+        "avgEarnings": true,
         "experience": true,
         "inventoryFullCost": true,
-        "kd": false,
+        "kd": true,
         "longestShot": true,
         "pmcKills": true,
         "ragFairStanding": true,
         "raidCount": true,
-        "surviveRatio": false,
+        "surviveRatio": true,
         "timeOnline": true
       },
-      "levelRequired": 10,
+      "levelRequired": 1,
       "limit": 100
     },
     "t_base_lockpicking": 45,
