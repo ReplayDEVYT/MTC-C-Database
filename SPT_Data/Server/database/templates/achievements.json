@@ -64,6 +64,48 @@
     "index": 600
   },
   {
+    "id": "mtclevel10",
+    "imageUrl": "/files/achievement/level10.png",
+    "assetPath": "",
+    "rewards": [
+      {
+        "id": "mtclevel10track",
+        "unknown": false,
+        "gameMode": [],
+        "availableInGameEditions": [],
+        "index": 0,
+        "target": "5cdea42e7d6c8b0474535dad",
+        "type": "CustomizationOffer"
+      }
+    ],
+    "conditions": {
+      "availableForFinish": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "level10requirement",
+          "index": 0,
+          "parentId": "",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Common",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": true,
+    "side": "Pmc",
+    "index": 600
+  },
+  {
     "id": "6512f16bde333c33d5127cbc",
     "imageUrl": "/files/achievement/Standard_4.png",
     "assetPath": "",

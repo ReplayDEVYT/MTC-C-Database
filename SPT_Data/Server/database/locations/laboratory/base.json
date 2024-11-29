@@ -5706,14 +5706,14 @@
   "tmp_location_field_remove_me": 111,
   "transits": [
     {
-      "activateAfterSec": 60,
+      "activateAfterSec": 5,
       "active": true,
       "conditions": "LAB_TRANSIT_8_COND",
       "description": "LAB_TRANSIT_8_DESC",
       "id": 8,
-      "location": "TarkovStreets",
+      "location": "factory4_day",
       "name": "LAB_TRANSIT_8",
-      "target": "5714dc692459777137212e12",
+      "target": "55f2d3fd4bdc2d5f408b4567",
       "time": 30
     }
   ],
