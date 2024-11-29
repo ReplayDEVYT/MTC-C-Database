@@ -64,12 +64,12 @@
     "index": 600
   },
   {
-    "id": "mtclevel10",
+    "id": "674a032fbfbf1db5a6dea618",
     "imageUrl": "/files/achievement/level10.png",
     "assetPath": "",
     "rewards": [
       {
-        "id": "mtclevel10track",
+        "id": "674a033bfe49ba56ef777a91",
         "unknown": false,
         "gameMode": [],
         "availableInGameEditions": [],
@@ -85,7 +85,7 @@
           "conditionType": "Level",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "level10requirement",
+          "id": "674a033e847215e53a606734",
           "index": 0,
           "parentId": "",
           "value": 10,
