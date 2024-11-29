@@ -505,7 +505,7 @@
   "DisabledForScav": false,
   "DisabledScavExits": "",
   "EnableCoop": true,
-  "Enabled": false,
+  "Enabled": true,
   "EscapeTimeLimit": 50,
   "EscapeTimeLimitCoop": 30,
   "EscapeTimeLimitPVE": 50,
