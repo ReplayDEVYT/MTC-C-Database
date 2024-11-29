@@ -31750,7 +31750,7 @@
       "AllowMalfForBots": false,
       "AmmoFeedWt": 0.2,
       "AmmoJamWt": 0.1,
-      "AmmoMalfChanceMult": 1,
+      "AmmoMalfChanceMult": 0,
       "AmmoMisfireWt": 0.7,
       "DurFeedWt": 0.1,
       "DurHardSlideMaxWt": 0.8,
@@ -31764,8 +31764,8 @@
       },
       "DurSoftSlideWt": 0.2,
       "IdleToOutSpeedMultOnMalf": 3,
-      "MagazineMalfChanceMult": 1,
-      "MalfRepairHardSlideMult": 1,
+      "MagazineMalfChanceMult": 0,
+      "MalfRepairHardSlideMult": 0,
       "MalfRepairOneHandBrokenMult": 0.9,
       "MalfRepairTwoHandsBrokenMult": 0.8,
       "OutToIdleSpeedMultForPistol": 3,
@@ -33764,8 +33764,8 @@
         "TemplateId": "5c12613b86f7743bbe2c3f76"
       },
       {
-        "MaxInLobby": 1,
-        "MaxInRaid": 1,
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
         "TemplateId": "66d98233302686954b0c6f81"
       },
       {
@@ -34209,8 +34209,8 @@
       }
     },
     "SprintSpeed": {
-      "x": 0.5,
-      "y": 1,
+      "x": 0.7,
+      "y": 1.2,
       "z": 0
     },
     "SquadSettings": {
@@ -34378,8 +34378,8 @@
     "TODSkyDate": "08-01-2018",
     "TeamSearchingTimeout": 10,
     "TestValue": 3,
-    "TimeBeforeDeploy": 10,
-    "TimeBeforeDeployLocal": 10,
+    "TimeBeforeDeploy": 5,
+    "TimeBeforeDeployLocal": 5,
     "TradingSetting": 0,
     "TradingSettings": {
       "BuyRestrictionMaxBonus": {
@@ -34396,7 +34396,7 @@
         "MinMedsResource": 0.01
       }
     },
-    "TradingUnlimitedItems": false,
+    "TradingUnlimitedItems": true,
     "TransitSettings": {
       "BearPriceMod": 1,
       "ClearAllPlayerEffectsOnTransit": false,
@@ -34503,8 +34503,8 @@
     "WAVE_COEF_LOW": 1,
     "WAVE_COEF_MID": 1.4,
     "WalkSpeed": {
-      "x": 0.625,
-      "y": 0.717,
+      "x": 0.825,
+      "y": 0.917,
       "z": 0
     },
     "WallContusionAbsorption": {
