@@ -32464,29 +32464,29 @@
     "MaxLoyaltyLevelForAll": false,
     "MountingSettings": {
       "MovementSettings": {
-        "ApproachTime": 0.5,
+        "ApproachTime": 0.2,
         "ApproachTimeDeltaAngleModifier": 0.01,
-        "ExitTime": 0.2,
+        "ExitTime": 0.1,
         "MaxApproachTime": 1,
         "MaxPitchLimitExcess": 10,
         "MaxVerticalMountAngle": 23,
         "MaxYawLimitExcess": 25,
         "MinApproachTime": 0.2,
-        "MountingCameraSpeed": 250,
+        "MountingCameraSpeed": 700,
         "MountingSwayFactorModifier": 0.15,
         "PitchLimitHorizontal": {
-          "x": -15,
-          "y": 15,
+          "x": -60,
+          "y": 40,
           "z": 0
         },
         "PitchLimitHorizontalBipod": {
-          "x": -20,
-          "y": 20,
+          "x": -80,
+          "y": 60,
           "z": 0
         },
         "PitchLimitVertical": {
-          "x": -15,
-          "y": 15,
+          "x": -35,
+          "y": 35,
           "z": 0
         },
         "RotationSpeedClamp": 1,
