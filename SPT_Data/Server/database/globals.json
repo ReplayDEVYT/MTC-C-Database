@@ -32536,7 +32536,7 @@
       "MaxOverheatCoolCoef": 100,
       "MaxWearOnMaxOverheat": 0.7,
       "MaxWearOnOverheat": 0.2,
-      "MinMalfChance": 0.5,
+      "MinMalfChance": 0,
       "MinOverheat": -50,
       "MinWearOnMaxOverheat": 0.2,
       "MinWearOnOverheat": 0.1,
