@@ -26962,9 +26962,9 @@
     "Ballistic": {
       "GlobalDamageDegradationCoefficient": 0.5
     },
-    "BaseCheckTime": 3,
-    "BaseLoadTime": 0.85,
-    "BaseUnloadTime": 0.3,
+    "BaseCheckTime": 1,
+    "BaseLoadTime": 15,
+    "BaseUnloadTime": 15,
     "BluntDamageReduceFromSoftArmorMod": 0.6,
     "BodyPartColliderSettings": {
       "BackHead": {
