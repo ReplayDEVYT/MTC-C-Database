@@ -32937,7 +32937,7 @@
           "value": 999999
         }
       },
-      "minUserLevel": 15,
+      "minUserLevel": 1,
       "offerDurationTimeInHour": 12,
       "offerDurationTimeInHourAfterRemove": 0.02,
       "offerPriorityCost": 6,
