@@ -114,5 +114,137 @@
     "progressBarEnabled": true,
     "side": "Pmc",
     "index": 600
+  },
+  {
+    "id": "674d0eaae74fb012cbeda4de",
+    "imageUrl": "/files/achievement/streak.png",
+    "assetPath": "",
+    "rewards": [],
+    "conditions": {
+      "availableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "674d0eb1af09cc7327c19192",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "674d0eb42fcb4541dec23c3e"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "674d0eb873d3deff0e8e13e0",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 3,
+          "visibilityConditions": []
+        }
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Legendary",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": true,
+    "side": "Pmc",
+    "index": 600
+  },
+  {
+    "id": "674d1090f0a25da048ba15ae",
+    "imageUrl": "/files/achievement/firstblood.png",
+    "assetPath": "",
+    "rewards": [],
+    "conditions": {
+      "availableForFinish": [
+        {
+          "completeInSeconds": 15,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "674d109524e36f6a7cbef1c3",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "674d1099ab87b1af45e70fe7"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "674d109cc07e126927c95dec",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Rare",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": true,
+    "side": "Pmc",
+    "index": 600
   }
 ]
