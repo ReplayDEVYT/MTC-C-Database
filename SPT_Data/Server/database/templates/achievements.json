@@ -42,6 +42,102 @@
     "index": 600
   },
   {
+    "id": "674d159a69dd16b92a141508",
+    "imageUrl": "/files/achievement/level20.png",
+    "assetPath": "",
+    "rewards": [],
+    "conditions": {
+      "availableForFinish": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "674d159df8d6ca7179f0137e",
+          "index": 0,
+          "parentId": "",
+          "value": 20,
+          "visibilityConditions": []
+        }
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Common",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": true,
+    "side": "Pmc",
+    "index": 600
+  },
+  {
+    "id": "674d15b04fb0150c3be56ff0",
+    "imageUrl": "/files/achievement/level30.png",
+    "assetPath": "",
+    "rewards": [],
+    "conditions": {
+      "availableForFinish": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "674d15b3b8410d58b9be92c1",
+          "index": 0,
+          "parentId": "",
+          "value": 30,
+          "visibilityConditions": []
+        }
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Rare",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": true,
+    "side": "Pmc",
+    "index": 600
+  },
+  {
+    "id": "674d15bea2c265aee01ac4b8",
+    "imageUrl": "/files/achievement/level40.png",
+    "assetPath": "",
+    "rewards": [],
+    "conditions": {
+      "availableForFinish": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "674d15c0c80d056b89426250",
+          "index": 0,
+          "parentId": "",
+          "value": 40,
+          "visibilityConditions": []
+        }
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Legendary",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": true,
+    "side": "Pmc",
+    "index": 600
+  },
+  {
     "id": "674a4521c347549b508c750e",
     "imageUrl": "/files/achievement/labschampion.png",
     "assetPath": "",
@@ -111,7 +207,7 @@
     "rarity": "Legendary",
     "hidden": false,
     "showConditions": false,
-    "progressBarEnabled": true,
+    "progressBarEnabled": false,
     "side": "Pmc",
     "index": 600
   },
@@ -177,7 +273,7 @@
     "rarity": "Legendary",
     "hidden": false,
     "showConditions": false,
-    "progressBarEnabled": true,
+    "progressBarEnabled": false,
     "side": "Pmc",
     "index": 600
   },
@@ -241,9 +337,9 @@
     "showProgress": false,
     "prefab": "",
     "rarity": "Rare",
-    "hidden": false,
+    "hidden": true,
     "showConditions": false,
-    "progressBarEnabled": true,
+    "progressBarEnabled": false,
     "side": "Pmc",
     "index": 600
   },
