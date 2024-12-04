@@ -31,10 +31,10 @@
         "ragfair": false
     },
     "dynamic": {
-        "purchasesAreFoundInRaid": false,
+        "purchasesAreFoundInRaid": true,
         "useTraderPriceForOffersIfHigher": true,
         "barter": {
-            "chancePercent": 20,
+            "chancePercent": 0,
             "itemCountMin": 1,
             "itemCountMax": 3,
             "priceRangeVariancePercent": 15,
@@ -66,13 +66,13 @@
         "offerAdjustment": {
             "adjustPriceWhenBelowHandbookPrice": false,
             "maxPriceDifferenceBelowHandbookPercent": 64,
-            "handbookPriceMultipier": 1.1,
+            "handbookPriceMultipier": 0.3,
             "priceThreshholdRub": 20000
         },
         "expiredOfferThreshold": 1400,
         "offerItemCount": {
-            "min": 7,
-            "max": 30
+            "min": 15,
+            "max": 60
         },
         "priceRanges": {
             "default": {
@@ -93,7 +93,7 @@
 			"5d02797c86f774203f38e30a",
 			"5ab8e79e86f7742d8b372e78"
 		],
-        "showDefaultPresetsOnly": true,
+        "showDefaultPresetsOnly": false,
         "endTimeSeconds": {
             "min": 360,
             "max": 3600
@@ -284,11 +284,7 @@
             "removeRemovablePlateChance": 40,
             "plateSlotIdToRemovePool": ["front_plate", "back_plate"]
         },
-        "itemPriceMultiplier": {
-            "5737292724597765e5728562": 6,
-            "57372ac324597767001bc261": 5,
-            "5c110624d174af029e69734c": 38
-        },
+        "itemPriceMultiplier": {},
         "_currencies": "what percentage of the offers are in each currency",
         "currencies": {
             "5449016a4bdc2d6f028b456f": 78,
@@ -323,20 +319,7 @@
             "enableCustomItemCategoryList": false,
             "customItemCategoryList": []
         },
-        "unreasonableModPrices": {
-            "5448fe124bdc2da5018b4567": {
-                "itemType": "Weapon Mod",
-                "enabled": true,
-                "handbookPriceOverMultiplier": 6,
-                "newPriceHandbookMultiplier": 6
-            },
-            "57864a66245977548f04a81f": {
-                "itemType": "Electronics",
-                "enabled": true,
-                "handbookPriceOverMultiplier": 11,
-                "newPriceHandbookMultiplier": 11
-            }
-        }
+        "unreasonableModPrices": {}
     },
     "tieredFlea": {
         "enabled": false,
