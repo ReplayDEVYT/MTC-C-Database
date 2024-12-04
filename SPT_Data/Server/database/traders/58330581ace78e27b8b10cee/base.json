@@ -112,7 +112,7 @@
     "currency_coefficient": 1,
     "excluded_category": [],
     "excluded_id_list": [],
-    "quality": "1"
+    "quality": "0.1"
   },
   "sell_category": [],
   "sell_modifier_for_prohibited_items": 0,
