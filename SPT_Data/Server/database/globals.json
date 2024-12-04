@@ -34229,8 +34229,8 @@
       "AimingSpeedMultiplier": 0.4,
       "BaseHoldBreathConsumption": 4,
       "BaseOverweightLimits": {
-        "x": 26,
-        "y": 77,
+        "x": 500,
+        "y": 500,
         "z": 0
       },
       "BaseRestorationRate": 15,
