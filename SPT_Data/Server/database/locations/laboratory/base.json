@@ -1,6 +1,10 @@
 {
-  "AccessKeys": [],
-  "AccessKeysPvE": [],
+  "AccessKeys": [
+    "5c94bbff86f7747ee735c08f"
+  ],
+  "AccessKeysPvE": [
+    "5c94bbff86f7747ee735c08f"
+  ],
   "Area": 0,
   "AveragePlayTime": 30,
   "AveragePlayerLevel": 45,
