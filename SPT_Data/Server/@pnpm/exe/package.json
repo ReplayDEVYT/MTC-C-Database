@@ -12,7 +12,7 @@
     "pnpm8"
   ],
   "devDependencies": {
-    "@pnpm/win-x64": "8.15.9"
+    "@pnpm/win-x64": "file:"
   },
   "bin": {
     "pnpm": "pnpm.exe"

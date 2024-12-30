@@ -1,6 +1,6 @@
 {
-    "priceMultiplier": 0.1,
-    "applyRandomizeDurabilityLoss": false,
+    "priceMultiplier": 1,
+    "applyRandomizeDurabilityLoss": true,
     "weaponSkillRepairGain": 4.06,
     "armorKitSkillPointGainPerRepairPointMultiplier": 0.05,
     "repairKitIntellectGainMultiplier": {

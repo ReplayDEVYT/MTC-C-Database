@@ -197,7 +197,7 @@
                     "y": 10,
                     "z": 0
                 },
-                "MoveSpeed": 30,
+                "MoveSpeed": 8,
                 "ReadyToDepartureTime": 15,
                 "CheckTurnDistanceTime": 60,
                 "TurnCheckSensitivity": 0.98,

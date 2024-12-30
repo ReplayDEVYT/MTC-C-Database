@@ -1,5 +1,5 @@
 {
-    "sptVersion": "3.10.0",
+    "sptVersion": "3.10.4",
     "projectName": "SPT",
     "compatibleTarkovVersion": "0.15.5.33420",
     "serverName": "MTC-C Server",
@@ -22,19 +22,28 @@
     "survey": {
         "locale": {
             "en": {
-                "question_1": "Do you prefer MTC-C over vanilla PvP?",
+                "question_1": "How off-topic is general chat on the SPT discord?",
                 "question_1_answer_1": "Not at all",
                 "question_1_answer_2": "A little",
-                "question_1_answer_3": "Yes!",
-                "question_2": "Do you think MTC-C is active enough to be fun?",
-                "question_2_answer_1": "Yes",
-                "question_2_answer_2": "No",
-                "question_3": "What would you like to see in MTC-C?",
-                "question_3_hint": "Obviously, put anything within reason. Your feedback may be turned into a poll!",
-                "title": "MTC-C Playtest 2 Feedback survey",
+                "question_1_answer_3": "Sometimes",
+                "question_1_answer_4": "Somewhat often",
+                "question_1_answer_5": "Quite often",
+                "question_1_answer_6": "Most of the time",
+                "question_1_answer_7": "Almost always",
+                "question_1_answer_8": "Always",
+                "question_1_answer_9": "NOT OFF TOPIC ENOUGH",
+                "question_1_answer_10": "I LIVE TO MAKE GENERAL CHAT OFF TOPIC",
+                "question_1_answer_11": "I am posting gifs to general chat as we speak",
+                "question_2": "When you download a mod from the hub do you read the readme/mod description?",
+                "question_2_answer_1": "What's a description",
+                "question_2_answer_2": "I can't read",
+                "question_2_answer_3": "I am illiterate",
+                "question_2_answer_4": "I am too busy making general chat off-topic to read",
+                "question_2_answer_5": "YOU WILL NEVER MAKE ME READ TEXT I WILL ASK IN GENERAL CHAT INSTEAD",
+                "title": "Feedback survey",
                 "time": "About 1 minute",
-                "description": "This is the first MTC-C survey! This is more of a placeholder, but all results will be recorded if they're able to be!",
-                "farewell": "Your feedback has been recorded. Thank you for participating!"
+                "description": "This is the first SPT survey! Your survey doesn't get sent anywhere, its just for modders to see how it works and maybe make use of.",
+                "farewell": "I told you at the start the survey doesn't get sent anywhere and yet you still completed it, curious."
             }
         },
         "survey": {
@@ -59,8 +68,8 @@
                     "sortIndex": 1,
                     "titleLocaleKey": "question_1",
                     "hintLocaleKey": "",
-                    "answerLimit": 5,
-                    "answerType": "SingleOption",
+                    "answerLimit": 10,
+                    "answerType": "MultiOption",
                     "answers": [
                         {
                             "id": 0,
@@ -79,6 +88,54 @@
                             "questionId": 0,
                             "sortIndex": 1,
                             "localeKey": "question_1_answer_3"
+                        },
+                        {
+                            "id": 3,
+                            "questionId": 0,
+                            "sortIndex": 1,
+                            "localeKey": "question_1_answer_4"
+                        },
+                        {
+                            "id": 4,
+                            "questionId": 0,
+                            "sortIndex": 1,
+                            "localeKey": "question_1_answer_5"
+                        },
+                        {
+                            "id": 5,
+                            "questionId": 0,
+                            "sortIndex": 1,
+                            "localeKey": "question_1_answer_6"
+                        },
+                        {
+                            "id": 6,
+                            "questionId": 0,
+                            "sortIndex": 1,
+                            "localeKey": "question_1_answer_7"
+                        },
+                        {
+                            "id": 7,
+                            "questionId": 0,
+                            "sortIndex": 1,
+                            "localeKey": "question_1_answer_8"
+                        },
+                        {
+                            "id": 8,
+                            "questionId": 0,
+                            "sortIndex": 1,
+                            "localeKey": "question_1_answer_9"
+                        },
+                        {
+                            "id": 9,
+                            "questionId": 0,
+                            "sortIndex": 1,
+                            "localeKey": "question_1_answer_10"
+                        },
+                        {
+                            "id": 10,
+                            "questionId": 0,
+                            "sortIndex": 1,
+                            "localeKey": "question_1_answer_11"
                         }
                     ]
                 },
@@ -101,20 +158,29 @@
                             "questionId": 1,
                             "sortIndex": 1,
                             "localeKey": "question_2_answer_2"
+                        },
+                        {
+                            "id": 2,
+                            "questionId": 1,
+                            "sortIndex": 1,
+                            "localeKey": "question_2_answer_3"
+                        },
+                        {
+                            "id": 3,
+                            "questionId": 1,
+                            "sortIndex": 1,
+                            "localeKey": "question_2_answer_4"
+                        },
+                        {
+                            "id": 4,
+                            "questionId": 1,
+                            "sortIndex": 1,
+                            "localeKey": "question_2_answer_5"
                         }
                     ]
-                },
-                {
-                    "id": 2,
-                    "sortIndex": 1,
-                    "titleLocaleKey": "question_3",
-                    "hintLocaleKey": "question_3_hint",
-                    "answerLimit": 150,
-                    "answerType": "Text",
-                    "answers": []
                 }
             ],
-            "isNew": true
+            "isNew": false
         }
     },
     "features": {
@@ -138,6 +204,6 @@
         "createNewProfileTypesBlacklist": []
     },
     "customWatermarkLocaleKeys": [],
-    "commit": "3dd9ce1c38772c581c4697cbc3312b199b655a60",
-    "buildTime": 1732633246456
+    "commit": "c6a9a1afb5b43463fdfa57feb18277c67b2b3334",
+    "buildTime": 1735118280815
 }
