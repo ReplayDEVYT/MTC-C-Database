@@ -31555,8 +31555,8 @@
     },
     "Inertia": {
       "AverageRotationFrameSpan": 60,
-      "BaseJumpPenalty": 0.3,
-      "BaseJumpPenaltyDuration": 0.4,
+      "BaseJumpPenalty": 0.1,
+      "BaseJumpPenaltyDuration": 0.1,
       "CrouchSpeedAccelerationRange": {
         "x": 0.475,
         "y": 0.75,
