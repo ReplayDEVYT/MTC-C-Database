@@ -1,10 +1,10 @@
 {
-    "sptVersion": "3.10.4",
+    "sptVersion": "3.11.3",
     "projectName": "SPT",
-    "compatibleTarkovVersion": "0.15.5.33420",
-    "serverName": "MTC-C Server",
+    "compatibleTarkovVersion": "0.16.0.35392",
+    "serverName": "SPT Server",
     "profileSaveIntervalSeconds": 15,
-    "sptFriendNickname": "Bot",
+    "sptFriendNickname": "SPT",
     "allowProfileWipe": true,
     "bsgLogging": {
         "verbosity": 6,
@@ -184,12 +184,9 @@
         }
     },
     "features": {
-        "autoInstallModDependencies": false,
         "compressProfile": false,
         "chatbotFeatures": {
-            "sptFriendEnabled": true,
             "sptFriendGiftsEnabled": true,
-            "commandoEnabled": true,
             "commandoFeatures": {
                 "giveCommandEnabled": true
             },
@@ -199,11 +196,15 @@
             "ids": {
                 "commando": "6723fd51c5924c57ce0ca01e",
                 "spt": "6723fd51c5924c57ce0ca01f"
+            },
+            "enabledBots": {
+                "6723fd51c5924c57ce0ca01e": true,
+                "6723fd51c5924c57ce0ca01f": true
             }
         },
         "createNewProfileTypesBlacklist": []
     },
     "customWatermarkLocaleKeys": [],
-    "commit": "c6a9a1afb5b43463fdfa57feb18277c67b2b3334",
-    "buildTime": 1735118280815
+    "commit": "7a9a346bb2a08bffb965150784ca7869741804b1",
+    "buildTime": 1744140374083
 }

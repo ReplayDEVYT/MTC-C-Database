@@ -251,13 +251,20 @@
     ],
     "results": {
       "finishEffect": {
-        "energy": 5,
-        "hydration": 5,
-        "rewardsRange": []
+        "energy": 0,
+        "hydration": 0,
+        "rewardsRange": [
+          {
+            "weight": 1,
+            "result": "Exit",
+            "time": 86400,
+            "type": "MusclePain"
+          }
+        ]
       },
       "singleSuccessEffect": {
-        "energy": 5,
-        "hydration": 5,
+        "energy": -2,
+        "hydration": -2,
         "rewardsRange": [
           {
             "weight": 1,
@@ -266,15 +273,15 @@
             "levelMultipliers": [
               {
                 "level": 0,
-                "multiplier": 1000
+                "multiplier": 6
               },
               {
                 "level": 10,
-                "multiplier": 1000
+                "multiplier": 5
               },
               {
                 "level": 25,
-                "multiplier": 1000
+                "multiplier": 4
               }
             ],
             "type": "Skill"
@@ -286,15 +293,15 @@
             "levelMultipliers": [
               {
                 "level": 0,
-                "multiplier": 1000
+                "multiplier": 6
               },
               {
                 "level": 10,
-                "multiplier": 1000
+                "multiplier": 5
               },
               {
                 "level": 25,
-                "multiplier": 1000
+                "multiplier": 4
               }
             ],
             "type": "Skill"
@@ -302,9 +309,15 @@
         ]
       },
       "singleFailEffect": {
-        "energy": 5,
-        "hydration": 5,
-        "rewardsRange": []
+        "energy": -4,
+        "hydration": -4,
+        "rewardsRange": [
+          {
+            "weight": 1,
+            "result": "Exit",
+            "type": "GymArmTrauma"
+          }
+        ]
       }
     }
   }

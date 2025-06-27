@@ -1,6 +1,6 @@
 {
     "raidMenuSettings": {
-        "aiAmount": "NoBots",
+        "aiAmount": "AsOnline",
         "aiDifficulty": "AsOnline",
         "bossEnabled": true,
         "scavWars": false,
@@ -26,7 +26,7 @@
     "coopExtractBaseStandingGain": 0.25,
     "scavExtractStandingGain": 0.01,
     "pmcKillProbabilityForScavGain": 0.2,
-    "keepFiRSecureContainerOnDeath": true,
-    "alwaysKeepFoundInRaidonRaidEnd": true,
+    "keepFiRSecureContainerOnDeath": false,
+    "alwaysKeepFoundInRaidOnRaidEnd": false,
     "playerScavHostileChancePercent": 15
 }

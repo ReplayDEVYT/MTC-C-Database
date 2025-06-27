@@ -1,7 +1,7 @@
 {
     "healthMultipliers": {
-        "death": 0.9,
-        "blacked": 0.9
+        "death": 0.3,
+        "blacked": 0.1
     },
     "save": {
         "health": true,
