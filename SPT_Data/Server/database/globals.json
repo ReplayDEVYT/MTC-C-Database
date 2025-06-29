@@ -32276,8 +32276,8 @@
         "z": 0
       },
       "DiagonalTime": {
-        "x": 1.4,
-        "y": 1,
+        "x": 0.6,
+        "y": 0.6,
         "z": 0
       },
       "DurationPower": 1.07,
@@ -32288,8 +32288,8 @@
       },
       "FallThreshold": 0.15,
       "InertiaBackwardCoef": {
-        "x": 0.6,
-        "y": 0.4,
+        "x": 0.2,
+        "y": 0.2,
         "z": 0
       },
       "InertiaLimits": {
@@ -32426,8 +32426,8 @@
         "z": 0
       },
       "WeaponFlipSpeed": {
-        "x": 2,
-        "y": 1,
+        "x": 4,
+        "y": 3,
         "z": 0
       }
     },
