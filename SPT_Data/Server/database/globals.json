@@ -35324,8 +35324,8 @@
         "z": 0
       },
       "TransitionSpeed": {
-        "x": 1,
-        "y": 0.66,
+        "x": 2,
+        "y": 1,
         "z": 0
       },
       "VaultLegsConsumption": {
@@ -35372,7 +35372,7 @@
       "RightPlatoPoint": 0.9,
       "ZeroValue": 0.07
     },
-    "StomachOverdamage": 1.5,
+    "StomachOverdamage": 1,
     "TODSkyDate": "08-01-2018",
     "TeamSearchingTimeout": 10,
     "TestValue": 3,
