@@ -241863,14 +241863,14 @@
           "delay": 0,
           "duration": 0,
           "fadeOut": 0,
-          "healthPenaltyMax": 45,
-          "healthPenaltyMin": 25
+          "healthPenaltyMax": 0,
+          "healthPenaltyMin": 0
         }
       },
       "effects_health": [],
       "hpResourceRate": 0,
       "medEffectType": "duringUse",
-      "medUseTime": 16
+      "medUseTime": 2
     },
     "_proto": "544fb3364bdc2d34748b456a",
     "_type": "Item"
@@ -241944,8 +241944,8 @@
           "delay": 0,
           "duration": 0,
           "fadeOut": 0,
-          "healthPenaltyMax": 72,
-          "healthPenaltyMin": 60
+          "healthPenaltyMax": 0,
+          "healthPenaltyMin": 0
         },
         "Fracture": {
           "delay": 0,
@@ -241958,7 +241958,7 @@
       "effects_health": [],
       "hpResourceRate": 0,
       "medEffectType": "duringUse",
-      "medUseTime": 20
+      "medUseTime": 2
     },
     "_proto": "544fb3364bdc2d34748b456a",
     "_type": "Item"
