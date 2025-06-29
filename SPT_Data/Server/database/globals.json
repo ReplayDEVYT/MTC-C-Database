@@ -23946,31 +23946,31 @@
     }
   ],
   "config": {
-    "AimPunchMagnitude": 13,
+    "AimPunchMagnitude": 10,
     "Aiming": {
-      "AimProceduralIntensity": 0.6,
-      "CameraSnapGlobalMult": 0.3,
+      "AimProceduralIntensity": 0.75,
+      "CameraSnapGlobalMult": 2,
       "HeavyWeight": 9,
       "LightWeight": 0.6,
-      "MaxTimeHeavy": 0.6,
-      "MaxTimeLight": 0.3,
-      "MinTimeHeavy": 0.5,
-      "MinTimeLight": 0.1,
+      "MaxTimeHeavy": 2.4,
+      "MaxTimeLight": 2,
+      "MinTimeHeavy": 0.95,
+      "MinTimeLight": 0.35,
       "ProceduralIntensityByPose": {
-        "x": 0.33,
-        "y": 0.66,
+        "x": 0.6,
+        "y": 0.7,
         "z": 1
       },
-      "RecoilBackBonus": 6,
+      "RecoilBackBonus": 5,
       "RecoilConvergenceMult": 1,
       "RecoilCrank": true,
-      "RecoilDamping": 0.5,
-      "RecoilHandDamping": 0.2,
+      "RecoilDamping": 1,
+      "RecoilHandDamping": 0.6,
       "RecoilScaling": 0.5,
-      "RecoilVertBonus": 20,
+      "RecoilVertBonus": 5,
       "RecoilXIntensityByPose": {
-        "x": 0.35,
-        "y": 0.6,
+        "x": 0.6,
+        "y": 0.7,
         "z": 1
       },
       "RecoilYIntensityByPose": {
