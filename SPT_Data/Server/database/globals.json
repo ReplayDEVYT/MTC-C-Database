@@ -23946,31 +23946,31 @@
     }
   ],
   "config": {
-    "AimPunchMagnitude": 14.4,
+    "AimPunchMagnitude": 13,
     "Aiming": {
-      "AimProceduralIntensity": 0.75,
-      "CameraSnapGlobalMult": 2,
+      "AimProceduralIntensity": 0.6,
+      "CameraSnapGlobalMult": 0.3,
       "HeavyWeight": 9,
       "LightWeight": 0.6,
-      "MaxTimeHeavy": 2.4,
-      "MaxTimeLight": 2,
-      "MinTimeHeavy": 0.95,
-      "MinTimeLight": 0.35,
+      "MaxTimeHeavy": 0.6,
+      "MaxTimeLight": 0.3,
+      "MinTimeHeavy": 0.5,
+      "MinTimeLight": 0.1,
       "ProceduralIntensityByPose": {
-        "x": 0.6,
-        "y": 0.7,
+        "x": 0.33,
+        "y": 0.66,
         "z": 1
       },
-      "RecoilBackBonus": 20,
+      "RecoilBackBonus": 6,
       "RecoilConvergenceMult": 1,
-      "RecoilCrank": false,
-      "RecoilDamping": 0.7,
-      "RecoilHandDamping": 0.45,
-      "RecoilScaling": 1,
+      "RecoilCrank": true,
+      "RecoilDamping": 0.5,
+      "RecoilHandDamping": 0.2,
+      "RecoilScaling": 0.5,
       "RecoilVertBonus": 20,
       "RecoilXIntensityByPose": {
-        "x": 0.6,
-        "y": 0.7,
+        "x": 0.35,
+        "y": 0.6,
         "z": 1
       },
       "RecoilYIntensityByPose": {
@@ -32325,8 +32325,8 @@
         "z": 0
       },
       "MoveTimeRange": {
-        "x": 0.07,
-        "y": 0.25,
+        "x": 0,
+        "y": 0,
         "z": 0
       },
       "PenaltyPower": 1.23,
@@ -32346,8 +32346,8 @@
         "z": 0
       },
       "SideTime": {
-        "x": 2,
-        "y": 1,
+        "x": 0,
+        "y": 0,
         "z": 0
       },
       "SpeedInertiaAfterJump": {
@@ -32382,7 +32382,7 @@
       },
       "SprintBrakeInertia": {
         "x": 0,
-        "y": 55,
+        "y": 300,
         "z": 0
       },
       "SprintSpeedInertiaCurveMax": {
@@ -32401,13 +32401,13 @@
         "z": 0
       },
       "TiltAcceleration": {
-        "x": 0,
-        "y": 0,
-        "z": 0
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "TiltInertiaMaxSpeed": {
-        "x": 0.6,
-        "y": 0.5,
+        "x": 3,
+        "y": 3,
         "z": 0
       },
       "TiltMaxSideBackSpeed": {
@@ -32421,13 +32421,13 @@
         "z": 0
       },
       "WalkInertia": {
-        "x": 0.005,
-        "y": 0.335,
+        "x": 0,
+        "y": 0,
         "z": 0
       },
       "WeaponFlipSpeed": {
-        "x": 1,
-        "y": 0.5,
+        "x": 2,
+        "y": 1,
         "z": 0
       }
     },
@@ -35207,8 +35207,8 @@
       }
     },
     "SprintSpeed": {
-      "x": 0.5,
-      "y": 1,
+      "x": 2,
+      "y": 3,
       "z": 0
     },
     "SquadSettings": {
@@ -35224,16 +35224,16 @@
       },
       "AimDrainRate": 1.1,
       "AimRangeFinderDrainRate": 0.55,
-      "AimingSpeedMultiplier": 0.4,
+      "AimingSpeedMultiplier": 0.1,
       "BaseHoldBreathConsumption": 4,
       "BaseOverweightLimits": {
         "x": 26,
         "y": 77,
         "z": 0
       },
-      "BaseRestorationRate": 4.5,
+      "BaseRestorationRate": 8,
       "BipodAimDrainRateMultiplier": 0.2,
-      "Capacity": 115,
+      "Capacity": 300,
       "ClimbLegsConsumption": {
         "x": 0,
         "y": 20,
@@ -35254,15 +35254,15 @@
         "y": 0.7,
         "z": 0
       },
-      "ExhaustedMeleeDamageMultiplier": 0.33,
-      "ExhaustedMeleeSpeed": 0.65,
-      "FallDamageMultiplier": 3.9,
+      "ExhaustedMeleeDamageMultiplier": 1,
+      "ExhaustedMeleeSpeed": 1,
+      "FallDamageMultiplier": 1,
       "FatigueAmountToCreateEffect": 15,
       "FatigueRestorationRate": 0.42,
       "GrenadeHighThrow": 11,
       "GrenadeLowThrow": 8,
-      "HandsCapacity": 80,
-      "HandsRestoration": 2.1,
+      "HandsCapacity": 160,
+      "HandsRestoration": 6,
       "HoldBreathStaminaMultiplier": {
         "x": 2,
         "y": 1,
@@ -35502,8 +35502,8 @@
     "WAVE_COEF_LOW": 1,
     "WAVE_COEF_MID": 1.4,
     "WalkSpeed": {
-      "x": 0.625,
-      "y": 0.717,
+      "x": 1,
+      "y": 1,
       "z": 0
     },
     "WallContusionAbsorption": {
