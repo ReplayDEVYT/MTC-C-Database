@@ -35212,7 +35212,7 @@
       "z": 0
     },
     "SquadSettings": {
-      "CountOfRequestsToOnePlayer": 3,
+      "CountOfRequestsToOnePlayer": 0,
       "SecondsForExpiredRequest": 120,
       "SendRequestDelaySeconds": 60
     },
